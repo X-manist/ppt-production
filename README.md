@@ -7,16 +7,22 @@
 需要 Node.js 22.20 或更新版本。通过 [skills CLI](https://github.com/vercel-labs/skills) 安装：
 
 ```bash
-npx skills add yasuo4mushan/ppt-production
+npx skills add X-manist/ppt-production
 ```
 
 按提示选择 agent。只安装到 Codex，并在所有项目中使用：
 
 ```bash
-npx skills add yasuo4mushan/ppt-production --skill ppt-production -a codex -g
+npx skills add X-manist/ppt-production --skill ppt-production -a codex -g
 ```
 
 省略 `-g` 即安装到当前项目。安装方式及其他 agent 参数见 [CLI 文档](https://github.com/vercel-labs/skills/blob/main/docs/commands.md)。
+
+如果 Git 克隆连接超时，可改用 GitHub ZIP 安装入口：
+
+```bash
+npx skills add https://codeload.github.com/X-manist/ppt-production/zip/refs/heads/main
+```
 
 ## 使用
 
