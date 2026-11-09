@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+*.pem
+*.key
+.agents/
+.codex/
+skills-lock.json
